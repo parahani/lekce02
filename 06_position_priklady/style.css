@@ -1,0 +1,15 @@
+/* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
+/* toto je černá magie, na kterou nešahej! */
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+body {
+	font-family: sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+	margin: 0;
+}
+
+
+/* tady bude tvůj kód */
+

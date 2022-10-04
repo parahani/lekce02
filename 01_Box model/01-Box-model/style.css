@@ -1,0 +1,26 @@
+/* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+
+.ramecek {
+    border-bottom:	4px double pink;
+}
+
+.sirka {
+    width: 31%;
+}
+
+.odsazeni {
+    padding: 30%;
+}
+
+body {
+   margin: 0; 
+}
+
+.box {
+    margin: 40px;
+    width: 300px;
+    height: 300px;
+}

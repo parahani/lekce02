@@ -1,0 +1,37 @@
+
+.relative {
+    /* zde dopis relativni pozicovani prostredniho obdelniku */
+    position: relative;
+    top: 10px;
+    left: 50px;
+    bottom: 0;
+    right: 0;
+}
+
+
+
+
+
+/* --------------------- */
+
+
+
+/*
+tady toho si nevšímej :)
+To je tady jen proto, aby lektor při prezentaci
+působil vtipně, až si účastnice přečtou červený text
+v rámečku tvořeném přerušovanou čarou! Fungovalo to?
+*/
+.relative:before {
+    opacity: 0;
+    content: "Tady bych byl normálně, ale nejsem! Muhaha...";
+    position: absolute;
+    top: -80px;
+    left: -150px;
+    width: 300px;
+    height: 200px;
+    outline: 3px dashed red;
+    color: red;
+    font-size: 16px;
+    padding: 10px;
+}
