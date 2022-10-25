@@ -7,9 +7,30 @@ body {
 	font-family: sans-serif;
 	font-size: 18px;
 	line-height: 1.5;
-	margin: 0;
+	;
 }
 
 
 /* tady bude tvůj kód */
 
+header{
+	background-color: orangered;
+	padding: 15px;
+
+
+	
+}
+
+header a{
+	color: white;
+	text-decoration: none;
+
+}
+
+main {
+	max-width: 940px;
+	margin: 0 auto;
+
+}
+
+}
